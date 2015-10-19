@@ -27,7 +27,7 @@ function pretty_output(json){
 function run(ticker){
     var options = {
       hostname: 'dev.markitondemand.com',
-      path: '/Api/v2/Quote/jsonp?symbol=' + ticker+'&callback='+function_name,
+      path: '/MODApis/Api/v2/Quote/jsonp?symbol=' + ticker+'&callback='+function_name,
       method: 'GET',
     };
 
